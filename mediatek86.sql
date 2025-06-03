@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Hôte : 127.0.0.1:3306
--- Généré le : mar. 03 juin 2025 à 13:19
+-- Généré le : mar. 03 juin 2025 à 13:24
 -- Version du serveur : 8.3.0
 -- Version de PHP : 8.3.6
 
@@ -20,6 +20,8 @@ SET time_zone = "+00:00";
 --
 -- Base de données : `mediatek86`
 --
+CREATE DATABASE IF NOT EXISTS `mediatek86` DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci;
+USE `mediatek86`;
 
 DELIMITER $$
 --
