@@ -368,8 +368,8 @@ class MyAccessBDD extends AccessBDD {
         $champsAUtiliser = [
             'id' => $champs['Id'],
             'dateCommande' => $champs['DateCommande'],
-            'montant' => $champs['Montant'],
             'nbExemplaire' => $champs['NbExemplaire'],
+            'montant' => $champs['Montant'],
             'idSuivi' => $champs['IdSuivi']
         ];
 
